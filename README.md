@@ -1,10 +1,10 @@
 # Threadlift for Codex
 
-[简体中文](README.zh-CN.md) · English
+[Simplified Chinese](README.zh-CN.md) · English
 
 **Pass the work. Start fresh.**
 
-A user-level Codex skill for moving a long-running task into a fresh chat. Say **“交接并新开会话”** or invoke **$session-handoff**. The skill writes a concise handoff, starts a receiver where the current Codex surface supports it, updates a private project-memory file, and leaves the receiver waiting for your next instruction.
+A user-level Codex skill for moving a long-running task into a fresh chat. Say **"handoff and start a new chat"** or invoke **$session-handoff**. The skill writes a concise handoff, starts a receiver where the current Codex surface supports it, updates a private project-memory file, and leaves the receiver waiting for your next instruction.
 
 ## What happens
 
@@ -44,7 +44,7 @@ Codex discovers user-level skills for future chats across your local projects. T
 
 After installation, in a local project chat:
 
-    $session-handoff 交接并新开会话
+    $session-handoff handoff and start a new chat
 
 The plain phrase also matches the skill description, but explicitly invoking it is the most reliable trigger. A local project must be identifiable. The receiver never starts pending project tasks on its own.
 
